@@ -27,4 +27,4 @@ jobs:
           push: true
           tags: |
             leonelfilho89/rotten-potatoes:latest
-            leonelfilho89/rotten-potatoes:${{ github.run_member }}
+            leonelfilho89/rotten-potatoes:${{ github.run_number }}
